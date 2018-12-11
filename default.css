@@ -1,0 +1,66 @@
+
+/*css file for ICS199 Project */
+header{
+	/* height of the blue background */
+	padding: 30px;
+	
+	font-size: 30px;
+	color: white;
+	font-family: Arial, Consolas, "Courier New", monospace;
+	
+	/* background color*/
+	text-align: center;
+	font-weight: bold;
+	background-color: #3498DB;	
+}
+	  
+footer{
+	/* pushes the letters towards the center
+	color: white;
+	background-color: #3498DB;
+	font-family: Arial, Consolas, "Courier New", monospace;
+}  
+
+table, th, td {
+	align: center;
+	border: 1px solid black;
+	font-family: Arial, Consolas, "Courier New", monospace;
+	text-align: center;
+	padding: 5px 25px 5px;
+	border-collapse: collapse;
+}
+
+
+
+/*----styling nav bar */
+		ul {
+			list-style-type: none;  /* This line gets rid of the dot before the text on the list*/
+			margin: 0;
+			padding: 15px;    /* the height of the grey menu bar */
+			background-color: grey;
+			font-family: Arial, Consolas, "Courier New", monospace;
+			font-size: 16px;
+		}
+		
+		li { 
+			display: inline; 		/* This line makes the list horizontal*/
+		}
+		li a {
+			display: block;   /*the menu displays as a block */
+			color: white;		/*text color of menu */	
+			padding: 8px 16px;
+			text-decoration: none;
+			display: inline;  /* This line makes the list horizontal*/
+		}
+		
+		li a:hover {
+			background-color: #555;
+			color: white;
+			padding: 15px /* the height of the menu block when hover over */
+		}
+		
+
+/*----styling nav bar */
+
+
+
